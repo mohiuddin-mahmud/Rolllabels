@@ -1,0 +1,178 @@
+﻿/*==========  Non-Mobile First Method  ==========*/
+
+@media (min-width : 1200px) {
+    /*.container {
+        width: 1030px;
+    }*/
+}
+
+/* Large Devices, Wide Screens */
+
+@media (max-width : 1200px) {
+    .cate a span {
+        padding: 0 10px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media (max-width : 992px) {
+}
+
+@media (min-width : 769px) {
+    .menu .navbar-brand {
+        background: #fe7f2d;
+        font-size: 16px;
+        color: #fff;
+        margin-left: 0 !important;
+    }
+
+    .menu .navbar-default .navbar-nav > li > a {
+        color: #fff;
+        font-size: 16px;
+        border-right: 1px solid #fff;
+        margin: 15px 0;
+        padding: 0 15px;
+        font-family: 'Lato', 'Raleway', sans-serif, "Helvetica Neue";
+    }
+
+    .menu .navbar-default .navbar-nav > li:nth-last-child(-n+2) > a {
+        border: none;
+        padding-right: 0;
+    }
+}
+/* Small Devices, Tablets */
+@media (max-width : 768px) {
+    .logo img {
+        width: 100%;
+    }
+
+    .cate a {
+        height: 169px;
+    }
+
+    .cate .col-sm-4 {
+        margin-bottom: 15px;
+    }
+
+    .box-select select {
+        width: 100%;
+    }
+}
+
+
+@media (max-width : 767px) {
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: transparent;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #fff;
+        }
+
+        .navbar-default .navbar-toggle div {
+            margin-top: -18px;
+            margin-left: 29px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+    .navbar-default .navbar-nav > li > a {
+        text-transform: none;
+        float: left;
+        width: 48%;
+        margin: 5px 1%;
+        background: #eee;
+        border: 1px solid #e0e0e0;
+        color: #333;
+        text-shadow: none;
+        border-radius: 3px;
+        font-size: 14px;
+        font-weight: bold;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .menu-linetop {
+        float: none !important;
+    }
+
+        .menu-linetop ul li {
+            /*width: 26%;*/
+            margin: 5px 3px 0px 0px !important;
+        }
+
+        .menu-linetop ul li:last-child {
+            float: right;
+        }
+
+    .logo img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .responsive-nav-wrapper .navbar-toggle {
+        float: left;
+        background: #fe7f2d !important;
+        border-radius: 0;
+        margin: 0;
+        padding: 14px 15px 10px;
+        font-weight: bold;
+    }
+
+    .menu .navbar-toggle {
+        float: left;
+        background: #fe7f2d !important;
+        border-radius: 0;
+        margin: 0;
+        padding: 14px 5px 27px;
+        font-weight: bold;
+    }
+
+    .cate a {
+        height: 135px;
+    }
+
+    .box-qc .col-sm-4 {
+        margin-bottom: 15px;
+    }
+
+    .box-select select {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .a-btn {
+        padding: 10px 32px;
+        font-size: 18px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media (max-width : 480px) {
+
+
+
+    footer #imaginary_container {
+        width: 200px !important;
+    }
+}
+
+@media (max-width : 375px) {
+    .menu-linetop ul li {
+        width: auto;
+        margin: 5px 10px;
+    }
+
+    .box-filter {
+        margin-left: 1%;
+    }
+}
+/* Custom, iPhone Retina */
+@media (max-width : 320px) {
+}

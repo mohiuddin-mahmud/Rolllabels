@@ -1,0 +1,226 @@
+.loader-overlay {
+    display: none !important;
+}
+.ico-wishlist {
+    background-image: url(../img/cart-icons.png);
+    background-repeat: no-repeat; 
+    background-position-x: 18px; 
+    background-position-y: 11px;
+}
+.ico-cart {
+    background-image: url(../img/cart-icons.png);
+    background-repeat: no-repeat;
+    background-position-y: 11px;
+    background-position-x: -18px;
+}
+.search-box .custom-select,
+.search-box select{
+    display: none;
+}
+.sub-header,
+.header-menu.stick{
+    border-bottom: 1px solid #ddd;
+}
+.footer-menu li a {
+    background-image: url(../img/bullet.png);
+    background-repeat: no-repeat;
+    background-position-x: 7px;
+    background-position-y: 16px;
+}
+.footer-menu li a:hover{
+    background-image: url(../img/bullet-active.png);
+}
+
+.home-page-category-grid .item-box,
+.sub-category-grid .item-box, .item-box {
+    margin: 0 1.3% 2.6% 1.3% !important;
+    width: 30.5% !important;
+}
+.item-box .title,
+.categories-carousel .item-holder .jcarousel-product-title{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#a3000000,endColorstr=#a3000000);
+}
+.item-box .manufacturer-item .title{
+    filter: none;
+    color: #444;
+}
+.item-grid{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.product-grid .item-box .buttons input[type="button"]:hover{
+    background-position-y: 0;
+    background-position-x: -36px;
+}
+.products-carousel .jcarousel-item .item-info .button:hover {
+    background-position-y: 0;
+    background-position-x: -33px;
+}
+.product-item .picture .item-overlay{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#35000000,endColorstr=#35000000);
+}
+
+.product-page-content .related-products-grid > div.item-grid{
+    padding: 20px !important;
+}
+.product-page-content .related-products-grid > div.item-grid .item-box{
+    float: none !important;
+    width: 100% !important;
+}
+
+.nop-jcarousel .jcarousel-next-disabled-horizontal:after,
+.nop-jcarousel .jcarousel-prev-disabled-horizontal:after,
+.nop-jcarousel .jcarousel-prev-disabled-vertical:after,
+.nop-jcarousel .jcarousel-next-disabled-vertical:after{
+    display: none;
+}
+.jDropDown{
+    background-color: #f1f1f1;
+}
+.product-page-size > span{
+    display: none !important;
+}
+.product-page-size > span:first-child{
+    display: inline-block !important;
+}
+.news-list-homepage .news-items .news-item{
+    width: 31% !important;
+    background: #fff;
+}
+.home-page-bottom > * {
+    width: 22.5% !important;
+}
+.footer-upper-block{
+    width: 31% !important;
+}
+.footer-middle-block .title:after{
+    display: none;
+}
+.newsletter-email input[type="text"] {
+  width: 230px !important;
+}
+
+.overview .add-to-wishlist-button,
+.variant-overview .add-to-wishlist-button {
+    background-image: url(../img/buttons-sprite.png); 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: 0;
+}
+.overview .add-to-wishlist-button:hover,
+.variant-overview .add-to-wishlist-button:hover {
+    background-position-y: -35px;
+    background-position-x: 0;
+}
+.overview .add-to-compare-list-button {
+    background-image: url(../img/buttons-sprite.png); 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: -37px;
+}
+.overview .add-to-compare-list-button:hover{
+    background-position-y: -35px;
+    background-position-x: -37px;
+}
+.overview .email-a-friend-button {
+    background-image: url(../img/buttons-sprite.png); 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: -74px;
+}
+.overview .email-a-friend-button:hover{
+    background-position-y: -35px;
+    background-position-x: -74px;
+}
+.overview .subscribe-button {
+    background-image: url(../img/buttons-sprite.png); 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: -148px;
+}
+.overview .subscribe-button:hover{
+    background-position-y: -35px;
+    background-position-x: -148px;
+}
+.download-sample a {
+    background-image: url(../img/buttons-sprite.png); 
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: -112px;
+}   
+.download-sample a:hover{
+    background-position-y: -35px;
+    background-position-x: -112px;
+}
+
+.order-progress a:before {
+    background-image: url(../img/arrows-sprite.png);
+    background-repeat: no-repeat;
+    background-position-x: -52px;
+    background-position-y: -3px;
+}
+
+.account-page .edit-address-button,
+.account-page .order-details-button{
+    background-position: 3px 3px;
+}
+.account-page .delete-address-button,
+.account-page .delete-selected-biss-button{
+    background-position: 3px -18px;
+}
+.account-page .return-items-button{
+    background-position: 3px -37px;
+}
+.order-details-page .page-title .pdf-order-button{
+    background-position: 3px -78px;
+}
+.order-details-page .page-title .pdf-order-button{
+    background-position: 3px -78px;
+}
+.order-details-page .page-title .print-order-button{
+    background-position: 3px -56px;
+}
+
+.forum-topic-page .reply-topic-link-button,
+.topic-footer .reply-topic-link-button{
+    background-image: url('../img/forum_icon4.png');
+    background-repeat: no-repeat;
+}
+.forum-topic-page .watch-topic-link-button,
+.topic-footer .watch-topic-link-button{
+	background-image: url('../img/forum_icon5.png');
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-position-x: 3px;
+}
+.forum-topic-page .edit-topic-link-button {
+	background-image: url('../img/forum_icon1.png');
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    background-position-x: 3px;
+}
+.forum-topic-page .delete-topic-link-button{
+	background-image: url('../img/forum_icon2.png');
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    background-position-x: 3px;
+}
+.forum-topic-page .move-topic-link-button {
+	background-image: url('../img/forum_icon3.png');
+    background-repeat: no-repeat;
+    background-position-y: 3px;
+    background-position-x: 3px;
+}
+
+#goToTop {
+    background: url('../img/goTop.png') no-repeat center;
+}
+.native-theme-roller {
+    left: -300px !important;
+}
+.native-theme-roller.opened {
+    left: 0 !important;
+}
+.native-theme-roller .open-button:after{
+    display: none !important;
+}

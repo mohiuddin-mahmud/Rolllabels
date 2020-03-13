@@ -1,0 +1,944 @@
+﻿
+/*********** Colours *******************************/
+
+/* Green (#B2DB0E) bg to orange */
+.ico-inbox .inbox-unread,
+.wishlist-qty,
+.cart-qty,
+.header-menu > ul > li:hover > a:before,
+.header-menu > ul > li:hover > span:before,
+.header-menu .sublist-wrap:after,
+.header-menu .sublist li:hover > a:before,
+.product-list .item-box .add-info input[type="button"]:hover
+{
+    background: #B2DB0E;
+}
+
+/* Green (#B2DB0E) text to orange */
+.topic-block a:hover,
+.cart-sum,
+.mini-shopping-cart .count a,
+.mini-shopping-cart .price span,
+.mini-shopping-cart .quantity span,
+.mini-shopping-cart .totals strong,
+.header-menu > ul > li > a:hover,
+.header-menu > ul > li > span:hover,
+.header-menu .sublist li:hover > a:before,
+.header-options-wrapper .customer-header-links a:hover,
+.ico-cart:hover .cart-label,
+#quickTab-FeeFo  .reviews .review a,
+td.total,
+.header-menu > ul.mega-menu-responsive li > a,
+.edit-item a
+{
+    color: #B2DB0E !important;
+}
+
+/* Green (#B2DB0E) bg and border to orange */
+.mini-shopping-cart input[type="button"]:hover,
+.product-grid .item-box .buttons input[type="button"]:hover,
+#goToTop:hover
+{
+    background-color: #B2DB0E;
+    border-color: #B2DB0E;
+}
+
+/* These all override the colours output by the theme widget inline on the page */
+
+/*background-color*/
+#goToTop:hover,
+.eu-cookie-bar-notification button:hover,
+.eu-cookie-bar-notification a:hover,
+.header-logo a img,
+.footer-menu a:hover:before,
+.social-sharing a:hover,
+.poll .buttons input:hover,
+.block .list a:hover:before,
+.block .list .active a:before,
+.block .list .sublist > .inactive:hover a:before,
+.pager li a:hover,
+.pager li span,
+.vendor-list a:hover,
+.contact-vendor input[type='button']:hover,
+.overview .add-to-cart-button:hover,
+.overview .add-to-wishlist-button:hover,
+.variant-overview .add-to-wishlist-button:hover,
+.overview .add-to-compare-list-button:hover,
+.overview .email-a-friend-button:hover,
+.overview .subscribe-button:hover,
+.download-sample a:hover,
+.variant-overview .add-to-cart-button:hover,
+.attributes .qq-upload-button,
+.write-review .button-1:hover,
+.wishlist-content .button-2:hover,
+.compare-products-page .button-2:hover,
+.enter-password-form input[type="submit"]:hover,
+.contact-page .button-1:hover,
+.email-a-friend-page .button-1:hover,
+.apply-vendor-page .button-1:hover,
+.registration-page .button-1:hover,
+.registration-result-page .button-1:hover,
+#check-availability-button:hover,
+.login-page .button-1:hover,
+.password-recovery-page .button-1:hover,
+.account-page .button-1:hover,
+.account-page .edit-address-button:hover,
+.account-page .order-details-button:hover,
+.account-page .delete-address-button:hover,
+.account-page .return-items-button:hover,
+.order-details-page .page-title a:hover .return-request-page .button-1:hover,
+.account-page .delete-selected-biss-button:hover,
+.avatar-page input[type="submit"].upload-avatar-button,
+.shopping-cart-page .button-1:hover,
+.checkout-page .button-1:hover,
+.shopping-cart-page .button-2:hover,
+.checkout-page .button-2:hover,
+.checkout-attributes .qq-upload-button,
+.order-details-page .actions input:hover,
+.search-input .button-1:hover,
+.blog-page .tags a:hover,
+.blogpost-page .tags a:hover,
+.new-comment .button-1:hover,
+.news-list-page .news-items .read-more:hover,
+.topic-post .pm-link-button:hover,
+.profile-info-box .pm-link-button:hover,
+.forum-edit-page .buttons input:hover,
+.move-topic-page .buttons input:hover,
+.private-message-send-page .buttons input:hover,
+.private-messages-page .buttons input:hover,
+.private-message-view-page .buttons input:hover,
+.ajaxCart .productAddedToCartWindowCheckout:hover,
+.mega-menu .box li a:hover:before,
+.home-page-body .manufacturers-carousel .jcarousel-next-horizontal:hover,
+.home-page-body .manufacturers-carousel .jcarousel-prev-horizontal:hover,
+.nop-jcarousel .jcarousel-prev-horizontal:hover,
+.nop-jcarousel .jcarousel-next-horizontal:hover,
+.nop-jcarousel .jcarousel-prev-vertical:hover,
+.nop-jcarousel .jcarousel-next-vertical:hover,
+.products-carousel .jcarousel-item .item-info .button:hover,
+.previous-product a:hover,
+.next-product a:hover,
+.ropc button:hover,
+.rich-blog-homepage .view-all a:hover,
+.post-actions .read-more:hover,
+.blog-search-results li a:hover:before,
+.post-navigation a:hover,
+.nivo-controlNav a.active,
+.sale-of-the-day-offer .owl-controls .owl-dot.active span {
+  background-color: #B2DB0E !important;
+}
+/*color*/
+
+.field-validation-valid,
+.footer-menu a:hover,
+.footer-middle-block.contact-info a:hover,
+.footer-tax-shipping a:hover,
+.footer-powered-by a,
+.footer-designed-by a,
+.titles ul li.active span,
+.home-page-listbox .actual-price,
+.block .list a:hover,
+.block .list .active > a,
+.block .list a.active,
+.block .view-all a,
+.block .tags li a:hover,
+.product-tags-all-page li a:hover,
+.breadcrumb h1,
+.breadcrumb strong,
+.item-box .actual-price,
+.tax-shipping-info a:hover,
+.overview .value,
+.variant-overview .value,
+.product-review-links a:hover,
+.product-no-reviews a:hover,
+.overview .product-price,
+.variant-overview .product-price,
+.customer-entered-price .price-range,
+.ui-tabs .ui-tabs-nav li:hover a,
+.product-tags-list li a:hover,
+.ui-datepicker-calendar td a:hover,
+.ui-datepicker-calendar .ui-datepicker-today,
+.product-reviews-page h1 a,
+.product-review-item .review-info a,
+.wishlist-page .share-info a:hover,
+.compare-products-page .clear-list:hover,
+.topic-block a:hover,
+.topic-page a:hover,
+.email-a-friend-page .title a:hover,
+.registration-result-page .result,
+.login-page .inputs.reversed .forgot-password a:hover,
+.account-page .button-2:hover,
+.order-details-page .page-title a:hover,
+.return-request-list-page a:hover,
+.order-total-price .cart-total-right,
+.cart-total .order-total,
+.terms-of-service span:hover,
+.cart-collaterals .current-code,
+.opc .back-link a:hover,
+.order-details-page .data-table a:hover .order-details-page td.total,
+.return-request-page td.price,
+.sitemap-page a:hover,
+.blog-posts .buttons a:hover,
+.new-comment .result,
+.comment-time,
+.news-list-homepage .news-items .news-date,
+.news-list-homepage .news-items .read-more,
+.current-time,
+.search-box.forum-search-box .advanced a,
+.forums-table-section .view-all,
+.forum-page .actions a:hover,
+.forum-breadcrumb li:last-child a,
+.forum-topic-page .topic-actions a:hover,
+.topic-footer .topic-actions a:hover,
+.topic-post .username:hover,
+.topic-post .post-head a:hover,
+.profile-page .topic-title a:hover,
+.profile-page .topic-data,
+.cart a:hover,
+.data-table a:hover,
+.compare-products-table a:hover,
+.forums-table-section a:hover,
+.cart .subtotal,
+.compare-products-table .product-price td,
+.tier-prices .item-price,
+.ajaxCart .k-window-titlebar.k-header .k-window-actions a:hover,
+.productAddedToCartWindowDescription strong,
+.productAddedToCartWindowSummary a:hover,
+.filter-block a.clearFilterOptions:hover,
+.filter-block a.clearPriceRangeFilter:hover,
+.selected-options-list > li span,
+.ajaxFilters .k-window-actions .k-icon:hover,
+.filter-block a.toggleControl,
+.filtersGroupPanel li > a:hover,
+.instant-search-item .detail .price,
+.products-carousel .item-info .actual-price,
+.mega-menu .box li a:hover,
+.quickView .k-window-titlebar.k-header .k-window-actions a:hover,
+.quickViewWindow .links-panel a:hover,
+.quickViewWindow .variant-info .product-price,
+.sale-of-the-day-offer .product-name a,
+.sale-of-the-day-offer .price.actual-price,
+.rich-blog-homepage .blog-post .read-more,
+.blog-instant-search .k-item.k-state-hover,
+.rich-blog-autocomplete-last-item span,
+.blog-search-results-page .search-term-highlighter,
+.blog-instant-search .k-item.k-state-focused,
+.blog-page .buttons .read-comments,
+.blog-search-results li a:hover,
+.post-footer a,
+.item-box:hover .product-title a,
+.topic-page a,
+.topic-block a
+{
+    color: #B2DB0E !important;
+}
+/*border-color*/
+
+#goToTop:hover,
+.eu-cookie-bar-notification button:hover,
+.eu-cookie-bar-notification a:hover,
+.poll .buttons input,
+.item-box input[type="button"],
+.vendor-list a:hover,
+.contact-vendor input[type='button']:hover,
+.gallery .picture-thumbs a:hover,
+.overview .add-to-wishlist-button:hover,
+.variant-overview .add-to-wishlist-button:hover,
+.overview .add-to-compare-list-button:hover,
+.overview .email-a-friend-button:hover,
+.overview .subscribe-button:hover,
+.download-sample a:hover,
+.overview .add-to-cart-button,
+.variant-overview .add-to-cart-button,
+.write-review .button-1,
+.wishlist-content .button-2:hover,
+.wishlist-content .wishlist-add-to-cart-button,
+.compare-products-page .button-2:hover,
+.enter-password-form input[type="submit"]:hover,
+.contact-page .button-1,
+.email-a-friend-page .button-1,
+.apply-vendor-page .button-1,
+.registration-page .button-1,
+.registration-result-page .button-1,
+#check-availability-button,
+.login-page .button-1,
+.password-recovery-page .button-1,
+.account-page .button-1,
+.return-request-page .button-1,
+.account-page .delete-selected-biss-button:hover,
+.order-progress li.active-step a:before,
+.shopping-cart-page .button-1:hover,
+.checkout-page .button-1:hover,
+.shopping-cart-page .button-2:hover,
+.checkout-page .button-2:hover,
+.cart-footer .button-1,
+.checkout-page input[type='submit'],
+.confirm-order .button-1,
+#checkout-step-confirm-order .buttons .button-1,
+.order-details-page .actions input:hover,
+.search-input .button-1,
+.blog-page .tags a:hover,
+.blogpost-page .tags a:hover,
+.new-comment .button-1,
+.news-list-page .news-items .read-more:hover,
+.topic-post .pm-link-button:hover,
+.profile-info-box .pm-link-button:hover,
+.forum-edit-page .buttons input:hover,
+.move-topic-page .buttons input:hover,
+.private-message-send-page .buttons input:hover,
+.private-messages-page .buttons input:hover,
+.private-message-view-page .buttons input:hover,
+.forum-edit-page .buttons input[type="submit"],
+.move-topic-page .buttons input[type="submit"],
+.private-messages-page .buttons input[type="submit"],
+.private-message-send-page .buttons input[type="submit"],
+.private-message-view-page .buttons input.button-1,
+.ajaxCart .productAddedToCartWindowCheckout,
+.products-carousel .item-info .button:hover,
+.products-carousel .jcarousel-item .item-info .button:hover,
+.mega-menu .dropdown,
+.previous-product a:hover,
+.next-product a:hover,
+.user-agreement-page .button-1,
+.ropc button:hover,
+.complete-button button,
+.rich-blog-homepage .view-all a:hover,
+.post-actions .read-more:hover,
+.post-navigation a:hover {
+  /*border-color: #B2DB0E !important;*/
+  border-color: #B2DB0E;
+}
+
+.item-box .title {
+    background-color: rgba(56,140,203,.4);
+}
+
+#goToTop
+{
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-color: #B2DB0E;
+}
+
+
+/*Desktop Schemes*/
+
+@media all and (min-width: 1001px) {
+  /*background-color*/
+  
+  .ico-inbox .inbox-unread,
+  .header-menu .sublist li:hover > a:before,
+  .wishlist-qty,
+  .cart-qty,
+  .mini-shopping-cart input[type="button"]:hover,
+  .header-menu > ul > li:hover > a:before,
+  .header-menu > ul > li:hover > span:before,
+  .header-menu .sublist-wrap:after,
+  .product-grid .item-box .buttons input[type="button"]:hover,
+  .product-list .item-box .add-info input[type="button"]:hover,
+  .sale-of-the-day-offer .go-to-product-page:hover {
+    background-color: #B2DB0E;
+  }
+  /*color*/
+  
+  .cart-sum,
+  .mini-shopping-cart .count a,
+  .mini-shopping-cart .price span,
+  .mini-shopping-cart .quantity span,
+  .mini-shopping-cart .totals strong,
+  .header-menu > ul > li > a:hover,
+  .header-menu > ul > li > span:hover,
+  .header-menu .sublist li:hover > a {
+    color: #B2DB0E;
+  }
+  /*border-color*/
+  
+  .mini-shopping-cart input[type="button"]:hover,
+  .product-grid .item-box .buttons input[type="button"]:hover,
+  .sale-of-the-day-offer .picture-thumbs a:hover,
+  .sale-of-the-day-offer .go-to-product-page:hover {
+    border-color: #B2DB0E;
+  }
+}
+
+/* Buttons */
+.button-1 {
+    border-width: 0 !important;
+    background-color: #B2DB0E !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-family: 'Lato', Arial, sans-serif, "Helvetica Neue";
+    text-transform: uppercase !important;
+}
+.button-1:hover {
+    background-color: #388ccb !important;
+}
+.button-2 {
+    font-weight: 700 !important;
+    font-family: 'Lato', Arial, sans-serif, "Helvetica Neue";
+    text-transform: uppercase !important;
+}
+.button-1 {
+    padding: 10px 14px;
+}
+
+.product-grid .item-box .buttons input[type="button"]{
+    background-color: transparent !important;
+    border-width: 2px !important;
+    font-size: 0;
+    font-weight: 400 !important;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #388ccb !important;
+    border-color: #388ccb;
+    background-position: top left -36px;
+}
+.product-grid .item-box .buttons input[type="button"]:hover {
+    background: #fff url(../img/buy-button-back.png) no-repeat top left !important;
+}
+.shopping-cart-page .button-1 {
+    font-size: 1rem;
+}
+.shopping-cart-page .common-buttons .checkout-button2 {
+    border-color: #B2DB0E;
+    background-color: #B2DB0E !important;
+}
+
+
+/* errors */
+.message-error
+ {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #c00;
+    padding: 20px 30px;
+}
+.message-error li
+ {
+    color: #c00;
+}
+
+/* Selects throughout */
+.attributes select, .custom-select-text {
+    color: #444444 !important;
+}
+
+
+a {
+    color: #333;
+}
+
+ a:hover {
+        color: #B2DB0E;
+}
+
+/*********** NOTIFICATIONS & POPUPS  ********************************/
+
+
+.ui-dialog-titlebar { 
+	border-bottom: 1px solid #B2DB0E;
+	background: #B2DB0E;
+}
+.ui-dialog-titlebar button {
+	border: 1px solid #999;
+	background: #fff url('../img/close.png') center no-repeat;
+}
+.ui-dialog-buttonset button {
+	min-width: 60px;
+	margin-left: 5px;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 1px #ddd, inset 0 0 1px #fff;
+	background: #eee;
+	padding: 5px;
+}
+.ui-dialog-buttonset button:hover {
+	background: #f6f6f6;
+}
+
+
+/*********** Template *******************************/
+
+/* Move admin links to bottom */
+.admin-header-links {
+    background-color: #B2DB0E;
+}
+.admin-header-links a {
+    color: #fff;
+}
+.master-wrapper-page {
+    background: url('../img/bg-header-sheet.png') no-repeat top center;
+}
+
+/* Top navigation bar */
+.headernav { 
+    background: #414141;
+}
+
+/* Flags */
+ul.flags {
+    visibility: hidden;
+}
+
+/* Search box */
+.header-options-wrapper .search-box {
+    border: 1px solid #414141;
+}
+.search-box input.search-box-samples {
+    color: #fff !important;
+}
+
+.header-options-wrapper .customer-header-links a, .ico-cart .cart-label {
+    color: #fff;
+}
+.ico-cart{
+    background: url(../img/ico-basket.png) no-repeat top 0 left 0;
+}
+.wishlist-qty, .cart-qty {
+    background: #B2DB0E none repeat scroll 0 0;
+    color: #fff;
+}
+.cart-sum {
+    color: #fff !important;
+}
+.ico-account{
+    background: url(../img/icon-lock.png) no-repeat top 6px left 0;
+}
+
+/* Sub header - mega menu bar */
+.mega-menu .dropdown {
+    border-bottom: 4px solid #75bfa1;
+}
+.sub-header, .header-menu.stick {
+    background: #9f9d9d none repeat scroll 0 0;
+}
+.header-menu > ul.mega-menu > li:first-child {
+    background: #B2DB0E;
+    color: #fff;
+}
+.header-menu > ul > li > a,
+.header-menu > ul > li > span,
+.header-menu > ul > li > a:hover,
+.header-menu > ul > li > span:hover,
+.header-menu .close-menu {
+    color: #fff;
+}
+.header-menu > ul.mega-menu > li > a:hover {
+    color: #fff !important;
+}
+.header-menu > ul > li:hover > a:before,
+.header-menu > ul > li:hover > span:before {
+    background: #fff;
+}
+
+/* Trust message bar */
+.trust {
+    background: #9f9d9d;
+    color: #fff;
+}
+.trust span, .trust i {
+    color: #B2DB0E;
+}
+
+/* Footer */
+footer {
+    background: #f8f8f8;
+}
+footer .title a {
+    color: #444444;
+}
+footer .title h3  {
+    background: #f8f8f8;
+    color: #444444;
+}
+footer .title .line-title {
+    background: #dddddd;
+}
+
+footer a {
+    color: #666;
+}
+
+footer i {
+    color: #222222;
+}
+
+.menu-footer {
+    background: #414141;
+}
+
+.menu-footer a {
+    color: #ffffff;
+}
+
+.menu-footer span {
+    color: #ffffff;
+}
+
+
+/* Breadcrumbs */
+.html-category-page .breadcrumb,
+.html-product-details-page .breadcrumb
+{
+    background-color: #eaf6ff;
+}
+
+/*********** Item box globals *******************************/
+
+.item-box .actual-price {
+    color: #B2DB0E !important;
+}
+.product-item .picture {
+    background: #ECECEC;
+}
+.item-box .product-title a, .item-box .title a {
+    color: #444444;
+}
+
+/*********** Topics *******************************/
+
+
+
+/*********** Home page *******************************/
+
+/* Slider */
+.nivo-caption::after {
+    background-color: #fff;
+}
+.nivo-caption {
+    color: #000;
+}
+
+/* Titles */
+.home-page .title a {
+    color: #444444;
+}
+.home-page .title h3, .home-page .title h1 {
+    background: #fff;
+    color: #444444;
+}
+.home-page .title .line-title {
+    background: #dddddd;
+}
+.line-title ul li a {
+    color: #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+}
+
+/* Category grid*/
+.home-page .cate a {
+    background: url(../img/bg-cat-sheet.png) center no-repeat;
+}
+.home-page .view-more {
+    color: #fff !important;
+    background: #B2DB0E;
+}
+.home-page .view-more:hover {
+    background-color: #388ccb !important;
+}
+
+/* Ajax filters */
+.wrapper-dark-grey {
+    background: #3b4549;
+}
+.home-page .home-page-filters-wrapper  {
+    background-color: #3b4549;
+}
+.home-page-filter-selector * {
+    color: #fff;
+}
+.home-page-filter-selector span.k-dropdown-wrap {
+    color: #888;
+    background: #3b4549;
+    border: 1px solid #fff;
+}
+
+.home-page-filter-dropdown {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.home-page-filter-dropdown li {
+	color: #888;
+}
+
+.home-page-filters-wrapper .search-button,
+.home-page-filters-wrapper .results-number {
+    background: #B2DB0E !important;  
+}
+.home-page-filters-wrapper .search-button:hover {
+    background-color: #388ccb !important;
+}
+.home-page-filters-wrapper .search-button:after {
+    background: url("../img/icon-magnifier.png") no-repeat scroll center top;
+}
+
+/* Featured categories (tabs)  */
+.home-page-category-tabs .home-page-category-anchor {
+    color: #444;
+}
+
+/* Special product collections */
+.title-pro-collec h3 {
+    background: #fff;
+    color: #444444;
+}
+.title-pro-collec .line-title {
+    background: #dddddd;
+}
+
+/* 3 footer row */
+.home-page-footer h2.title {
+    color: #454545 !important;
+}
+.home-page-footer a {
+    color: #B2DB0E;
+}
+
+/* BLog box */
+.rich-blog-homepage .post-date {
+    color: #c4bfbf;
+}
+/* Reviews */
+.home-page-footer .box-reviews ul span.date {    
+    color: #c4bfbf;
+}
+
+/* Overriding reviews.css */
+.RatingStars i.RatingStars__star,
+.reviewWrap .reviewHeader .reviewStarsWrap i {
+    color: #c02955 !important;
+}
+.box-reviews .vw__header {
+    border-bottom: 1px solid #f1f1f1 !important;
+}
+.box-reviews .vw__content {
+    background-color: #fff;
+}
+.box-reviews .RatingVerdict {
+    color: #4d4d4d;
+}
+.box-reviews .vw__footer {
+    background-color: #fff;
+}
+.box-reviews .vw__footer .footer__moreRevs {
+    color: #c02955;
+}
+
+
+
+
+/*********** Product listings *******************************/
+
+/* Height of leftbar lists */
+.block .list li {
+    background-color: #eaf6ff;
+}
+.block .list li.active, .block .list li:hover {
+    background-color: #faffe4;
+}
+.block .list li a:hover {
+    color: #666 !important;
+}
+.block .list li.active a {
+    color: #666 !important;
+}
+.block .list li.active a:hover {
+    color: #B2DB0E !important;
+}
+.block .list li.active ul.sublist li {
+    background-color: #faffe4;
+}
+
+/*.filter-block a.toggleControl {
+    font-size: 1.2rem;
+}
+.filtersGroupPanel li > a {
+    margin: 0;
+}*/
+
+
+
+/*********** Product details *******************************/
+
+/* Order by */
+.overview #future_date_product, .overview .bulk-promo {
+    background-color: #eaf6ff;
+}
+.overview #future_date_product strong {
+    color: #B2DB0E;
+}
+
+/* Specifications in description */
+.full-description tr td:last-child {
+    color: #B2DB0E;
+    padding-left: 20px;
+}
+
+/* Made to order */
+.product-details-page.madetoorder .instructions {
+    border: 4px solid #0069B5;
+    background: #eaf6ff;
+}
+
+.product-made-to-order h3 {
+    color: #fff;
+    background-color: #0069B5;
+}
+
+/* Header row */
+.stacktable tr:first-child td {
+  color: #1b1e24;
+  background-color: #eaf6ff;
+}
+
+.stacktable tr td {
+  background: #f9ffe0;
+}
+.stacktable tr:hover td, .stacktable tr.selected td {
+  background: #b2db0e !important;
+  color: #FFFFFF; 
+}
+
+.stacktable tr:nth-child(even) td {
+  background: #fcffee;
+}
+ 
+.stacktable tr:nth-child(even):hover td {
+  background: #F6BD42;
+}
+
+.stacktable tr td a {
+    color: #0069B5;
+}
+
+
+
+/*********** Checkout (one page cart) *******************************/
+ 
+.opc .tab-section.allow .step-title:hover * {
+    color: #B2DB0E;
+}
+.opc .tab-section.active .step-title:hover * {
+    color: #444444;
+}
+
+.opc .tab-section {
+    background-color: #ECECEC;
+}
+.opc .tab-section.active {
+    background-color: #eaf6ff;
+}
+.opc p.back-link a {
+    color: #B2DB0E;
+}
+
+.opc-page .message-error
+ {
+    border: 0 solid #c00;
+    padding: 0;
+}
+.opc-page .validation-summary-errors
+ {
+    border: 2px solid #c00;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+
+
+/* Accordions (faqs) */
+.accordion h2
+{
+	background-color: #ECECEC;
+	color: #414141;
+}
+.accordion h2:hover, .accordion h2.ui-accordion-header-active
+{
+	background-color: #0069B5;
+    color: #fff;
+}
+.ui-state-active, .accordion .ui-widget-content .ui-state-active, .accordion .ui-widget-header .ui-state-active{ border:none; background:#eaf6ff;}
+.ui-state-hover, .accordion .ui-widget-content .ui-state-hover, .accordion .ui-widget-header .ui-state-hover, .accordion .ui-state-focus, .accordion .ui-widget-content .ui-state-focus, .accordion .ui-widget-header .ui-state-focus{ border:none;}
+.ui-widget-content{ border:none; background:#fff;}
+.ui-accordion .ui-accordion-content{ background-color: #eaf6ff;}
+.ui-state-default .ui-icon{ background:url(../img/arrow-green.png) no-repeat; width:15px; height:15px;}
+.ui-state-active .ui-icon{ background:url(../img/arrow-white-down.png) no-repeat !important;}
+.ui-state-hover .ui-icon{ background:url(../img/arrow-green.png) no-repeat !important;}
+.ui-state-hover .ui-icon{ background:url(../img/arrow-white-down.png) no-repeat !important;}
+.ui-accordion .ui-accordion-header {
+  cursor: pointer; outline:0;
+  position: relative;
+  margin-top: 1px;
+  zoom: 1;
+}
+.ui-accordion .ui-accordion-header .ui-icon {
+  position: absolute;
+  right:14px;
+  top:18px;
+}
+
+
+/*********** Order details *******************************/
+
+
+/*********** Product ribbons *******************************/
+
+/* General (i.e..item-box in listings, featured etc...) */
+.product-ribbon .ribbon-text {
+  background: #B2DB0E;
+}
+
+
+
+/*********** 320 *******************************/
+@media all and (min-width: 320px) {
+    
+    .headernav a {
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    /* Flags by search bar */
+    .sub-header {
+        background-color: #fff;
+    }
+    .responsive-nav-wrapper {
+        /*background-color: #388ccb;*/
+        background-color: #9f9d9d;
+        box-shadow:none;
+    }
+
+}
+
+/*********** 480 *******************************/
+@media all and (min-width: 481px) {
+
+    
+}
+
+/*********** 768 *******************************/
+@media all and (min-width: 769px) {
+    
+
+    /* Homepage slider */
+    .nivo-caption a {
+        background: #B2DB0E none repeat scroll 0 0;
+        color: #fff;
+        padding: 10px 30px;
+        display: inline-block;
+        text-transform: uppercase !important;
+    }
+
+
+    
+}
+
+
+/*********** 980 *******************************/
+@media all and (min-width: 1001px) {
+
+    .sub-header {
+        background-color: #414141;
+    }
+    
+}
+
