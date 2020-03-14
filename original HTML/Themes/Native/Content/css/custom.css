@@ -531,6 +531,7 @@ input.button-2 {
 
     .header-links li:last-child {
         margin-right: 0;
+        position: relative;
     }
 
 .header-links span, .header-links a {
@@ -1606,16 +1607,6 @@ label {
     margin: 0 auto;
 }
 
-.header-options-wrapper {
-    margin: 15px auto;
-    border-width: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-self: baseline;
-    justify-content: space-between;
-}
-
 /* Flags */
 ul.flags img {
     opacity: 0.6;
@@ -2153,6 +2144,15 @@ button.checkout-button {
 
 
 @media all and (max-width: 1000px) {
+    .responsive-nav-wrapper {
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .li-ico-login {
+        display: none;
+    }
 
     .paypal-hosted .order-summary-content {
         position: static;
@@ -2195,7 +2195,7 @@ button.checkout-button {
 
     .header-options-wrapper {
         box-shadow: none;
-        background-color: transparent;
+        background-color: #fff;
     }
 
         .header-options-wrapper a.logo img {
@@ -2244,8 +2244,8 @@ button.checkout-button {
 
     .responsive-nav-wrapper {
         /*background-color: #f8cb46;*/
-        background-color: #9f9d9d;
-        box-shadow: none;
+        /*background-color: #9f9d9d;
+        box-shadow: none;*/
     }
 
         .responsive-nav-wrapper > div > span, .responsive-nav-wrapper > div > a {
@@ -2353,6 +2353,15 @@ button.checkout-button {
         width: 980px;
     }
 
+    .header-options-wrapper {
+        margin: 15px auto;
+        border-width: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: baseline;
+        justify-content: space-between;
+    }
     /* Logo
     We hide default logo at desktop, because its auto inserted by the framework into DOM. We add it in again using custom CSS where we want it, then hide this new one at mobile */
     .header-logo {
