@@ -12,6 +12,7 @@
     <link rel="alternate" hreflang="en-gb" href="http://rolllabels/en-gb/" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="Themes/Native/Content/CSS/styles.css" rel="stylesheet" type="text/css" />
     <link href="Themes/Native/Content/CSS/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="Themes/Native/Content/CSS/tables.css" rel="stylesheet" type="text/css" />
@@ -48,16 +49,16 @@
     <div class="master-wrapper-page home-page items-per-row-three">
 
         <!--[if lte IE 7]>
-    <div style="clear:both;height:59px;text-align:center;position:relative;">
-        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">
-            <img src="Themes/Native/Content/img/ie_warning.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-    </div>
-<![endif]-->
+            <div style="clear:both;height:59px;text-align:center;position:relative;">
+                <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank">
+                    <img src="Themes/Native/Content/img/ie_warning.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+                </a>
+            </div>
+        <![endif]-->
 
         <div class="overlayOffCanvas"></div>
 
-        <div class="headernav">
+        <div class="headernav" style="display:none;">
             <ul class="flags">
                 <li>
                     <a class="selected" href="http://rl.accu-web.co.uk/en-gb/"><img src='/Themes/Native/Content/img/flag-1.png' title="RollLabels" /></a>
@@ -80,24 +81,48 @@
 
             </ul>
 
-            <a href="/contactus">Contact us</a>
-            <a href="tel:+44 0330 111 8484" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> +44 0330 111 8484</a>
+            <!--<a href="/contactus">Contact us</a>-->
 
         </div>
+
+
 
         <div class="header">
 
             <div class="header-options-wrapper">
                 <div class="header-selectors-wrapper">
+                    <a href="/en-gb/" class="logo">
+                        <img title="" alt="RollLabels" src="Themes/Native/Content/img/logo.png">
+                    </a>
+                    <a href="tel:03442720212" class="phone">
+                        03442720212
+                    </a>
 
                 </div>
-                <a href="/en-gb/" class="logo">
-                    <img title="" alt="RollLabels" src="Themes/Native/Content/img/logo-1.png">
-                </a>
+
                 <div class="logo-right">
 
                     <div class="wishlist-cart-wrapper">
-                        <div class="customer-header-links">
+                        <div class="header-links">
+                            <ul>
+                                <li>
+                                    <a href="#" class="ico-register success-bg round20">Create Labels</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="ico-login">
+                                        Log In
+                                    </a>
+                                </li>
+                                <li id="topcartlink">
+                                    <a href="#" class="ico-cart">
+                                        <span class="cart-label success">$10.00</span>
+                                        <span class="cart-qty">0</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!--<div class="customer-header-links">
                             <ul>
 
                                 <li><a href="/en-gb/customer/info" class="ico-account">My account</a></li>
@@ -117,28 +142,29 @@
                         <div id="flyout-cart" class="flyout-cart">
                             <div class="mini-shopping-cart">
                                 <div class="count">
-                                    Your basket is empty </div>
+                                    Your basket is empty
+                                </div>
                             </div>
-                        </div>
-                        <script type="text/javascript">
-                            $(document).ready(function() {
-                                $('.header').on('mouseenter', '#topcartlink', function() {
+                        </div>-->
+                        <!--<script type="text/javascript">
+                            $(document).ready(function () {
+                                $('.header').on('mouseenter', '#topcartlink', function () {
                                     $('#flyout-cart').addClass('active');
                                 });
-                                $('.header').on('mouseleave', '#topcartlink', function() {
+                                $('.header').on('mouseleave', '#topcartlink', function () {
                                     $('#flyout-cart').removeClass('active');
                                 });
-                                $('.header').on('mouseenter', '#flyout-cart', function() {
+                                $('.header').on('mouseenter', '#flyout-cart', function () {
                                     $('#flyout-cart').addClass('active');
                                 });
-                                $('.header').on('mouseleave', '#flyout-cart', function() {
+                                $('.header').on('mouseleave', '#flyout-cart', function () {
                                     $('#flyout-cart').removeClass('active');
                                 });
                             });
-                        </script>
+                        </script>-->
 
                     </div>
-                    <div class="header-right">
+                    <div class="header-right" style="display:none;">
                         <ul class="flags">
                             <li>
                                 <a class="selected" href="http://rl.accu-web.co.uk/en-gb/"><img src='/Themes/Native/Content/img/flag-1.png' title="RollLabels" /></a>
@@ -186,7 +212,9 @@
 
         <div class="sub-header">
             <div class="sub-header-center">
-
+                <div class="header-label">
+                    Quality roll labels printed with your designs
+                </div>
                 <div class="header-menu">
                     <div class="close-menu">
                         <span>Close</span>
@@ -243,6 +271,7 @@
             </div>
         </div>
 
+
         <div class="master-wrapper-content">
             <script type="text/javascript">
                 AjaxCart.init(false, '.header-links .cart-qty', '.header-links .wishlist-qty', '#flyout-cart');
@@ -259,6 +288,170 @@
 
                     <div class="page home-page">
                         <div class="page-body">
+                            <div class="section-banner">
+                                <img src="Themes/Native/Content/img/banner.png" />
+                            </div>
+                            <div class="topic-block ptb-50">
+                                <div class="container">
+                                    <div class="topic-block-title title"><h2>Create your own custom roll labels</h2></div>
+                                    <div class="topic-block-body">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="product-grid home-page-product-grid container">
+
+                                <div class="item-grid flex-box">
+                                    <div class="item-box round15">
+                                        <div class="product-item" data-productid="1">
+                                            <div class="picture">
+                                                <a href="#">
+                                                    <img src="Themes/Native/Content/img/item-1.png">
+                                                </a>
+                                            </div>
+                                            <div class="details">
+                                                <h2 class="product-title">
+                                                    <a href="/build-your-own-computer">Blank Roll Labels</a>
+                                                </h2>
+
+                                                <div class="description">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor
+                                                    incididunt ut labore et dolore magna
+                                                    aliqua. Ut enim ad minim veniam.
+                                                </div>
+                                                <div class="add-info">
+
+                                                    <div class="buttons">
+                                                        <input type="button" value="Get Started" class="button-2 product-box-add-to-cart-button">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-box round15">
+                                        <div class="product-item" data-productid="1">
+                                            <div class="picture">
+                                                <a href="#">
+                                                    <img src="Themes/Native/Content/img/item-1.png">
+                                                </a>
+                                            </div>
+                                            <div class="details">
+                                                <h2 class="product-title">
+                                                    <a href="/build-your-own-computer">Printed Roll Labels</a>
+                                                </h2>
+
+                                                <div class="description">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor
+                                                    incididunt ut labore et dolore magna
+                                                    aliqua. Ut enim ad minim veniam.
+                                                </div>
+                                                <div class="add-info">
+
+                                                    <div class="buttons">
+                                                        <input type="button" value="Get Started" class="button-2 product-box-add-to-cart-button">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item-box round15">
+                                        <div class="product-item" data-productid="1">
+                                            <div class="picture">
+                                                <a href="#">
+                                                    <img src="Themes/Native/Content/img/item-1.png">
+                                                </a>
+                                            </div>
+                                            <div class="details">
+                                                <h2 class="product-title">
+                                                    <a href="/build-your-own-computer">Thermal Blank Roll Labels</a>
+                                                </h2>
+
+                                                <div class="description">
+                                                    Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor
+                                                    incididunt ut labore et dolore magna
+                                                    aliqua. Ut enim ad minim veniam.
+                                                </div>
+                                                <div class="add-info">
+
+                                                    <div class="buttons">
+                                                        <input type="button" value="Get Started" class="button-2 product-box-add-to-cart-button">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="section-customersay ptb-80">
+                                <div class="container flex-box">
+                                    <div class="customersay-picture">
+                                        <a href="#">
+                                            <img class="round15" src="Themes/Native/Content/img/item-1.png">
+                                        </a>
+                                    </div>
+                                    <div class="say-details">
+                                        <div class="sayblock-title title"><h2>What our customers say</h2></div>
+                                        <div class="description">
+                                            “Brilliant service and great communication. Would
+                                            highly recommend!”
+                                        </div>
+                                        <div class="say-rating">
+                                            <div class="rating-box">
+                                                <div class="rating">
+                                                    <div class="success flex-box">
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                        <i class="fa fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="section-youneed flex-box container ptb-50">
+                                <div class="youneed txt-left">
+                                    <div class="youneed-title title"><h2>Not sure what you need?</h2></div>
+                                    <div class="description">
+                                        Our expert team are at the ready to lend a hand in making sure you get the perfect labels for
+                                        your application. Fill in this form and a member of staff will be in touch with you soon to
+                                        discuss the specifics of your order.
+                                    </div>
+                                    <div class="youneed-contact success">
+                                        <span>
+                                            <i class="fa fa-phone-alt"></i>
+                                            03442720212
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="callback-request default-bg round5">
+                                    <h4 class="subtitle">Request a Call Back</h4>
+                                    <form class="callback-form flex-box column">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                        <input type="email" class="form-control" placeholder="Email Address">
+                                        <input type="text" class="form-control" placeholder="Company">
+                                        <button class="callback-submit" type="submit">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -269,74 +462,132 @@
 
         </div>
     </div>
-    <div class="footer">
+    <div class="section-newsletter flex-box">
+        <div class="subtitle">
+            Never miss an offer!
+        </div>
+        <div class="newsletter flex-box">
+            <div class="title">
+                <strong>Sign up to our newsletter</strong>
+            </div>
+            <div class="newsletter-subscribe flex-box" id="newsletter-subscribe-block">
+                <div class="newsletter-email flex-box">
+                    <input class="newsletter-subscribe-text" id="newsletter-email" name="NewsletterEmail" placeholder="Enter your email here..." type="text" value="" />
+                    <input type="button" value="Subscribe" id="newsletter-subscribe-button" class="button-1 newsletter-subscribe-button" />
+                </div>
+                <div class="newsletter-validation">
+                    <span id="subscribe-loading-progress" style="display: none;" class="please-wait">Wait...</span>
+                    <span class="field-validation-valid" data-valmsg-for="NewsletterEmail" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="newsletter-result" id="newsletter-result-block"></div>
+            <script type="text/javascript">
+                function newsletter_subscribe(subscribe) {
+                    var subscribeProgress = $("#subscribe-loading-progress");
+                    subscribeProgress.show();
+                    var postData = {
+                        subscribe: subscribe,
+                        email: $("#newsletter-email").val()
+                    };
+                    $.ajax({
+                        cache: false,
+                        type: "POST",
+                        url: "/en-gb/subscribenewsletter",
+                        data: postData,
+                        success: function (data) {
+                            subscribeProgress.hide();
+                            $("#newsletter-result-block").html(data.Result);
+                            if (data.Success) {
+                                $('#newsletter-subscribe-block').hide();
+                                $('#newsletter-result-block').show();
+                            } else {
+                                $('#newsletter-result-block').fadeIn("slow").delay(2000).fadeOut("slow");
+                            }
+                        },
+                        error: function (xhr, ajaxOptions, thrownError) {
+                            alert('Failed to subscribe.');
+                            subscribeProgress.hide();
+                        }
+                    });
+                }
+
+                $(document).ready(function () {
+                    $('#newsletter-subscribe-button').click(function () {
+                        newsletter_subscribe('true');
+                    });
+                    $("#newsletter-email").keydown(function (event) {
+                        if (event.keyCode == 13) {
+                            $("#newsletter-subscribe-button").click();
+                            return false;
+                        }
+                    });
+                });
+            </script>
+        </div>
+
+    </div>
+
+
+    <div class="footer ptb-50">
+        <div class="container flex-box">
+            <div class="footer-upper flex-box">
+                <div class="footer-block information">
+                    <div class="title"><strong>Contact Us</strong></div>
+                    <ul class="list">
+                        <li>
+                            <i class="fa fa-map-marker-alt"></i>
+                            Unit 2 Mill Road, Fishersgate, BN41 1PD
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-alt"></i>
+                            <a href="#">03442720212</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <a href="#">info@rollabels.com</a>
+                        </li>
+                    </ul>
+                    <img class="footer-logo" alt="Rolllabels demo store" src="Themes/Native/Content/img/footer-logo.png">
+                </div>
+                <div class="footer-block customer-service">
+                    <div class="title">
+                        <strong>Customer Care</strong>
+                    </div>
+                    <ul class="list">
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">My basket</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Materials</a></li>
+                        <li><a href="#">Terms &amp; conditions</a></li>
+                        <li><a href="#">Quality guarentee</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div class="footer-info">
+                    <span class="footer-disclaimer">
+                        © Copyright Roll-Labels 2014. Orders fulfilled by A4labels.com Ltd
+                    </span>
+                </div>
+                <div class="footer-powered-by">
+                    <a href="//www.Rolllabels.com/">
+                        Company number: 7818068. VAT: 109 3049 32
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="footer">
 
         <div class="footer-middle">
-            <div class="newsletter">
-                <div class="title">
-                    <div class="line-title"></div>
-                    <h3>Newsletter</h3>
-                </div>
-                <div class="newsletter-subscribe" id="newsletter-subscribe-block">
-                    <div class="newsletter-email">
-                        <input class="newsletter-subscribe-text" id="newsletter-email" name="NewsletterEmail" placeholder="Enter your email here..." type="text" value="" />
-                        <input type="button" value="Subscribe" id="newsletter-subscribe-button" class="button-1 newsletter-subscribe-button" />
-                    </div>
-                    <div class="newsletter-validation">
-                        <span id="subscribe-loading-progress" style="display: none;" class="please-wait">Wait...</span>
-                        <span class="field-validation-valid" data-valmsg-for="NewsletterEmail" data-valmsg-replace="true"></span>
-                    </div>
-                </div>
-                <div class="newsletter-result" id="newsletter-result-block"></div>
-                <script type="text/javascript">
-                    function newsletter_subscribe(subscribe) {
-                        var subscribeProgress = $("#subscribe-loading-progress");
-                        subscribeProgress.show();
-                        var postData = {
-                            subscribe: subscribe,
-                            email: $("#newsletter-email").val()
-                        };
-                        $.ajax({
-                            cache: false,
-                            type: "POST",
-                            url: "/en-gb/subscribenewsletter",
-                            data: postData,
-                            success: function(data) {
-                                subscribeProgress.hide();
-                                $("#newsletter-result-block").html(data.Result);
-                                if (data.Success) {
-                                    $('#newsletter-subscribe-block').hide();
-                                    $('#newsletter-result-block').show();
-                                } else {
-                                    $('#newsletter-result-block').fadeIn("slow").delay(2000).fadeOut("slow");
-                                }
-                            },
-                            error: function(xhr, ajaxOptions, thrownError) {
-                                alert('Failed to subscribe.');
-                                subscribeProgress.hide();
-                            }
-                        });
-                    }
-
-                    $(document).ready(function() {
-                        $('#newsletter-subscribe-button').click(function() {
-                            newsletter_subscribe('true');
-                        });
-                        $("#newsletter-email").keydown(function(event) {
-                            if (event.keyCode == 13) {
-                                $("#newsletter-subscribe-button").click();
-                                return false;
-                            }
-                        });
-                    });
-                </script>
-            </div>
 
             <div class="footer-blocks-holder">
                 <div class="footer-middle-block contact-info">
                     <h3 class="title">
-                    <span>Contact Info</span>
-                </h3>
+                        <span>Contact Info</span>
+                    </h3>
                     <ul class="footer-menu">
                         <li class="address">
                             <span>Unit 2 Mill Road, Fishersgate, BN41 1PD</span>
@@ -353,8 +604,8 @@
                 </div>
                 <div class="footer-middle-block information">
                     <h3 class="title">
-                    <span>Information</span>
-                </h3>
+                        <span>Information</span>
+                    </h3>
                     <ul class="footer-menu">
                         <li><a href="/en-gb/about-us">About Us</a></li>
                         <li><a href="/en-gb/delivery">Delivery</a></li>
@@ -365,8 +616,8 @@
                 </div>
                 <div class="footer-middle-block my-account">
                     <h3 class="title">
-                    <span>Customer Service</span>
-                </h3>
+                        <span>Customer Service</span>
+                    </h3>
                     <ul class="footer-menu">
                         <li><a href="/en-gb/customer/info">Customer info</a></li>
                         <li><a href="/en-gb/customer/addresses">Addresses</a></li>
@@ -379,8 +630,8 @@
                 </div>
                 <div class="footer-middle-block customer-services">
                     <h3 class="title">
-                    <span>Help</span>
-                </h3>
+                        <span>Help</span>
+                    </h3>
                     <ul class="footer-menu">
                         <li><a href="/en-gb/contactus">Contact us</a></li>
                         <li><a href="/en-gb/sitemap">Sitemap</a></li>
@@ -402,15 +653,14 @@
             </div>
 
         </div>
-    </div>
-
+    </div>-->
     <!-- Google code for Analytics tracking -->
     <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-12818813-1']);
         _gaq.push(['_trackPageview']);
 
-        (function() {
+        (function () {
             var ga = document.createElement('script');
             ga.type = 'text/javascript';
             ga.async = true;
