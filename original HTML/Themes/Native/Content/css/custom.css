@@ -527,6 +527,7 @@ input.button-2 {
 
 .header-links li {
     margin: 0 18px;
+    position: relative;
 }
 
     .header-links li:last-child {
@@ -654,7 +655,7 @@ span.cart-qty {
     justify-content: space-between;
     /*align-content:space-between;
     align-items:flex-start;*/
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .item-box {
@@ -1791,9 +1792,66 @@ ul.flags a.selected img, ul.flags a:hover img {
 
 /* Breadcrumbs. Reduce on  listing & details */
 @media all and (max-width: 480px) {
+    .phone {
+        display: none;
+    }
 
     .breadcrumb li:first-child {
         display: none;
+    }
+
+    .item-grid {
+        flex-direction: column;
+    }
+
+    .item-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .box-row {
+        flex-direction: column;
+    }
+
+        .box-row > div {
+            width: 100%;
+        }
+
+    .section-newsletter {
+        text-align: center;
+    }
+
+        .section-newsletter .subtitle {
+            margin: 40px auto;
+            text-align: center;
+            font-size: 30px;
+        }
+
+    .newsletter {
+        padding: 50px;
+    }
+
+    input#newsletter-email {
+        margin: 35px auto 20px;
+    }
+
+    input#newsletter-subscribe-button {
+        position: unset;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    input#newsletter-email {
+        margin: 0 auto;
+    }
+
+    .youneed-title.title,
+    .youneed .description {
+        text-align: center;
+    }
+
+    .youneed .description {
+        padding-right: 0;
     }
 }
 
@@ -2144,11 +2202,39 @@ button.checkout-button {
 
 
 @media all and (max-width: 1000px) {
+    .container,
+    .responsive-nav-inner {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 710px;
+    }
+
     .responsive-nav-wrapper {
         background: #fff;
+    }
+
+    .responsive-nav-inner {
         display: flex;
         flex-wrap: wrap;
     }
+
+    .responsive-nav-wrapper > div > a {
+        height: auto;
+        width: unset;
+        text-indent: unset;
+    }
+
+    .responsive-nav-wrapper .menu-title {
+        float: none;
+        width: 22px;
+        height: 22px;
+        background: url(../img/menu-controler-bg.png) no-repeat left center;
+    }
+
+        .responsive-nav-wrapper .menu-title span {
+            font-size: 0;
+            color: transparent;
+        }
 
     .li-ico-login {
         display: none;
@@ -2162,6 +2248,95 @@ button.checkout-button {
 
     .paypal-hosted iframe.pphosted {
         margin-top: -20px !important;
+    }
+
+    .header-selectors-wrapper {
+        flex-grow: 1;
+        margin: 15px 0;
+    }
+
+    .phone {
+        margin-left: 25px;
+        margin-top: 10px;
+        height: 30px;
+        padding: 0 0px 0 30px;
+        font-size: 18px;
+    }
+
+    .logo img {
+        max-width: 140px;
+    }
+
+    .header-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .ico-cart {
+        height: 35px;
+    }
+
+    .header-links li {
+        margin: 0 15px;
+    }
+
+    .header-menu > ul li > a:after {
+        bottom: 0px;
+    }
+
+    .item-box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .item-box:nth-child(2n+1) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .item-box .product-title, .item-box .title {
+            font-size: 16px;
+            margin: 25px auto 0px;
+            height: 50px;
+            padding: 0 0;
+        }
+
+    .footer {
+        text-align: left;
+    }
+
+    .footer-lower {
+        margin-top: 25px;
+        text-align: left;
+    }
+
+    .footer-info, .footer-powered-by {
+        max-width: 240px;
+    }
+
+    .newsletter {
+        padding-left: 10px;
+    }
+
+    input#newsletter-email {
+        margin-left: 10px;
+    }
+
+    .section-newsletter .subtitle {
+        margin-right: 10px;
+    }
+
+    .newsletter-validation {
+        display: none;
+    }
+
+    .callback-request {
+        flex-basis: 45%;
+    }
+
+    .newsletter-subscribe {
+        height: unset;
     }
 }
 
@@ -2423,10 +2598,16 @@ button.checkout-button {
         /*display: block;*/
     }
 
-        .header-right .flags li {
-            float: left;
-            margin: 3px 10px 0 0;
-        }
+    .header-menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .header-right .flags li {
+        float: left;
+        margin: 3px 10px 0 0;
+    }
 
     .mini-shopping-cart .picture a {
         overflow: visible;
