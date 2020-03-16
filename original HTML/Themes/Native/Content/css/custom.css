@@ -2153,6 +2153,7 @@ button.checkout-button {
     .responsive-nav-inner {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .header-label {
@@ -2193,7 +2194,7 @@ button.checkout-button {
     }
 
     .header-selectors-wrapper {
-        flex-grow: 1;
+        flex-grow: unset;
         margin: 15px 0;
     }
 
@@ -2421,6 +2422,7 @@ button.checkout-button {
     .card-list {
         flex-direction: row;
         justify-content: center;
+        margin-bottom: 30px;
     }
 
     .footer-info, .footer-powered-by {
@@ -2527,6 +2529,12 @@ button.checkout-button {
     }
 }
 
+@media all and (max-width: 360px) {
+    .logo img {
+        max-width: 100px;
+    }
+}
+
 /*********** 480 *******************************/
 @media all and (min-width: 481px) {
 
@@ -2535,10 +2543,64 @@ button.checkout-button {
         font-size: 16px;
         margin-left: 20px;
     }
+
+    .footer-disclaimer span {
+        display: inline-block;
+    }
 }
 
+@media all and (min-width: 481px) and (max-width: 600px) {
+    .title h2 {
+        margin-bottom: 0px;
+    }
+
+    .description {
+        padding: 10px 10px 10px;
+    }
+
+    .section-newsletter {
+        text-align: center;
+    }
+
+        .section-newsletter .subtitle {
+            margin: 40px auto;
+            text-align: center;
+            font-size: 24px;
+        }
+
+    .newsletter {
+        padding: 50px;
+    }
+
+        .newsletter > div {
+            margin: 0 auto;
+        }
+
+    .newsletter-email {
+        padding-right: 0;
+        max-width: 300px;
+    }
+
+    input#newsletter-email {
+        margin: 35px auto 20px;
+    }
+
+    input#newsletter-subscribe-button {
+        position: unset;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    input#newsletter-email {
+        margin: 20px auto;
+        text-align: center;
+    }
+}
 /*********** 768 *******************************/
 @media all and (min-width: 769px) {
+    .ico-register.call-us {
+        display: none;
+    }
 
     .headernav a.call {
         display: inline-block;
@@ -2604,6 +2666,15 @@ button.checkout-button {
     }
 }
 
+@media all and (max-width: 768px) {
+    .ico-register.regi {
+        display: none;
+    }
+
+    .phone.phone-md {
+        display: none;
+    }
+}
 
 /*********** 980 *******************************/
 @media all and (min-width: 1001px) {
@@ -2612,7 +2683,17 @@ button.checkout-button {
         background: none;
     }
 
+    /*.header-menu, .container {
+        max-width: 980px;
+        margin: 0 auto;
+    }*/
     /* Template */
+    .header-menu ul.mega-menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .trust .wrapper,
     .header-menu.stick ul.mega-menu {
         display: flex;
@@ -2727,12 +2808,6 @@ button.checkout-button {
 @media all and (min-width: 1281px) {
 
     /* Template */
-    .header-menu ul.mega-menu {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-    }
-
     .headernav,
     .trust .wrapper,
     .header-menu.stick ul.mega-menu {
