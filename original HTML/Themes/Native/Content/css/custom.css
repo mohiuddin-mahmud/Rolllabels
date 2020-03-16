@@ -326,7 +326,8 @@ body {
     color: #9C9C9C;
     font-size: 13px;
     font-weight: normal;
-    font-family: 'Lato', Arial, sans-serif, "Helvetica Neue";
+    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', Arial, sans-serif, "Helvetica Neue";*/
 }
 
 img {
@@ -618,6 +619,7 @@ span.cart-qty {
 
 /*HOME PAGE TOPIC*/
 .home-page .topic-block {
+    padding: 15px 0 25px;
     margin: 0 auto 20px;
     background: url(../img/topic-bg.png) no-repeat center;
     background-size: 100%;
@@ -1790,71 +1792,6 @@ ul.flags a.selected img, ul.flags a:hover img {
 }
 
 
-/* Breadcrumbs. Reduce on  listing & details */
-@media all and (max-width: 480px) {
-    .phone {
-        display: none;
-    }
-
-    .breadcrumb li:first-child {
-        display: none;
-    }
-
-    .item-grid {
-        flex-direction: column;
-    }
-
-    .item-box {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .box-row {
-        flex-direction: column;
-    }
-
-        .box-row > div {
-            width: 100%;
-        }
-
-    .section-newsletter {
-        text-align: center;
-    }
-
-        .section-newsletter .subtitle {
-            margin: 40px auto;
-            text-align: center;
-            font-size: 30px;
-        }
-
-    .newsletter {
-        padding: 50px;
-    }
-
-    input#newsletter-email {
-        margin: 35px auto 20px;
-    }
-
-    input#newsletter-subscribe-button {
-        position: unset;
-        margin: 0 auto;
-        width: 200px;
-    }
-
-    input#newsletter-email {
-        margin: 0 auto;
-    }
-
-    .youneed-title.title,
-    .youneed .description {
-        text-align: center;
-    }
-
-    .youneed .description {
-        padding-right: 0;
-    }
-}
-
 @media all and (max-width: 769px) {
 
     .breadcrumb li > * {
@@ -2218,6 +2155,11 @@ button.checkout-button {
         flex-wrap: wrap;
     }
 
+    .header-label {
+        background: #F7F7F7;
+        text-align: left;
+    }
+
     .responsive-nav-wrapper > div > a {
         height: auto;
         width: unset;
@@ -2339,6 +2281,155 @@ button.checkout-button {
         height: unset;
     }
 }
+
+
+/* Breadcrumbs. Reduce on  listing & details */
+@media all and (max-width: 480px) {
+    .header-links li {
+        margin: 0 5px;
+    }
+
+    .ico-register {
+        padding: 0px 12px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .topic-block-title h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .breadcrumb li:first-child {
+        display: none;
+    }
+
+    .item-grid {
+        flex-direction: column;
+    }
+
+    .item-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+        .item-box .product-title, .item-box .title {
+            height: unset;
+        }
+
+    .box-row {
+        flex-direction: column;
+    }
+
+    .description {
+        padding: 20px 40px;
+    }
+
+    .say-details {
+        flex-basis: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+        .say-details .description {
+            max-width: 310px;
+            margin: 0 auto;
+            padding-right: 0;
+        }
+
+    .say-rating .rating-box {
+        margin: 10px auto 0 auto;
+    }
+
+    .youneed-contact {
+        text-align: center;
+        margin: 15px auto 50px;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"] {
+        height: auto;
+    }
+
+    .box-row > div {
+        width: 100%;
+    }
+
+    .section-newsletter {
+        text-align: center;
+    }
+
+        .section-newsletter .subtitle {
+            margin: 40px auto;
+            text-align: center;
+            font-size: 24px;
+        }
+
+    .newsletter {
+        padding: 50px;
+    }
+
+    .newsletter-email {
+        padding-right: 0;
+        max-width: 300px;
+    }
+
+    input#newsletter-email {
+        margin: 35px auto 20px;
+    }
+
+    input#newsletter-subscribe-button {
+        position: unset;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    input#newsletter-email {
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .youneed-title.title,
+    .youneed .description {
+        text-align: center;
+    }
+
+    .youneed .description {
+        padding-right: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-block li a {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .footer-block.customer-service {
+        margin: 0 auto;
+    }
+
+    .footer-lower {
+        text-align: center;
+    }
+
+    .card-list {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .footer-info, .footer-powered-by {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+}
+
+
 
 
 
